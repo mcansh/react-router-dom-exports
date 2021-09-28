@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "react-router-dom": {
+      "signature": "6367afc444200f7b84fd977adaa220c9",
+      "file": true,
+      "replaced": "5.3.0"
+    }
+  }
+}
