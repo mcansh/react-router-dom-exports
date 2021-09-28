@@ -29,12 +29,9 @@ export function App() {
       </nav>
       <Routes>
         {routes.map(({ path, component: RouteComp }) => {
-          return (
-            <Route key={path} path={path}>
-              <RouteComp />
-            </Route>
-          );
+          return <Route key={path} path={path} element={<RouteComp />} />;
         })}
+        <Route path="*" element={<h1>Not Found</h1>} />
       </Routes>
     </>
   );
